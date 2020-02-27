@@ -1,26 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import Home from './Component/Home.js';
+import About from './Component/About.js';
+import Room from './Component/Room.js';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component{
+  render(){
+    return(
+      <Router>
+      <nav className="sticky-top navbar navbar-expand-md navbar-light bg-light ">
+          <a href="/home" className="navbar-brand">Tour</a>
+          <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <span className="navbar-toggler-icon"></span>
+          </button>
+
+          <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+              <div className="navbar-nav">
+                  <a href="/home" className="nav-item nav-link active">Home</a>
+                  <a href="/about" className="nav-item nav-link">About</a>
+                  <a href="/room" className="nav-item nav-link">Room</a>
+              </div>
+          </div>
+      </nav>
+
+        
+        <div>
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route path="/home" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/room" component={Room} />
+          </Switch>
+        </div>
+      </Router>
+      
+    )
+  }
 }
 
 export default App;
+
