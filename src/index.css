@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.contact{
+  font-size: 25px;
+  position: absolute;
+  margin-top: -220px;
+  width: 100%;
+}

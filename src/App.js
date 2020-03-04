@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Home from './Component/Home.js';
 import About from './Component/About.js';
 import Room from './Component/Room.js';
+import Pages from './Component/Pages.js';
+import News from './Component/News.js';
 import ContactUs from './Component/ContactUs.js';
 import './App.css';
 
@@ -21,6 +23,8 @@ class App extends Component{
                   <a href="/home" className="nav-item nav-link active">Home</a>
                   <a href="/about" className="nav-item nav-link">About</a>
                   <a href="/room" className="nav-item nav-link">Room</a>
+                  <a href="/Pages" className="nav-item nav-link">Pages</a>
+                  <a href="/News" className="nav-item nav-link">News</a>
                   <a href="/contact" className="nav-item nav-link">ContactUs</a>
               </div>
           </div>
@@ -33,6 +37,8 @@ class App extends Component{
             <Route path="/home" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/room" component={Room} />
+            <Route path="/Pages" component={Pages} />
+            <Route path="/News" component={News} />
             <Route path="/contact" component={ContactUs} />
           </Switch>
         </div>
