@@ -5,7 +5,9 @@ import Hotel from './Hotel.js';
 import Book from './Book.js';
 import LatestNew from './LatestNew.js'
 import Background from './Background.js'
-// import Service from './Service.js';
+//import Carousel from './Carousel.js';
+// import ImageSlide from './ImageSlide.js'
+import Service from './Service.js';
 
 const Home=()=>{
     return(
@@ -14,10 +16,11 @@ const Home=()=>{
             <Check/>
             <Hotel/>
             <Book/>
+            <Service/>
+            {/* <ImageSlide/> */}
+            {/* <Carousel/> */}
             <Background/>
             <LatestNew/>
-            
-            {/* <Service/> */}
         </div>
         )
 }

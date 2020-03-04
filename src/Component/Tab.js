@@ -92,3 +92,46 @@ function TabPanel(props) {
         </div>
     );
 }
+
+        <MDBContainer>
+            <MDBCarousel activeItem={1} length={2} slide={true} showControls={true} showIndicators={true} multiItem>
+                <MDBCarouselInner>
+                <MDBRow>
+                    {/* <MDBCarouselItem itemId="1"> */}
+                    <MDBCol md="4">
+                        <MDBCard className="mb-2">
+                        <MDBCardImage className="img-fluid" src={img1} />
+                        </MDBCard>
+                    </MDBCol>
+                    <MDBCol md="4">
+                        <MDBCard className="mb-2">
+                        <MDBCardImage className="img-fluid" src={img2} />
+                        </MDBCard>
+                    </MDBCol>
+                    <MDBCol md="4">
+                        <MDBCard className="mb-2">
+                        <MDBCardImage className="img-fluid" src={img3} />
+                        </MDBCard>
+                    </MDBCol>
+                    {/* </MDBCarouselItem> */}
+                    <MDBCarouselItem itemId="2">
+                    <MDBCol md="4">
+                        <MDBCard className="mb-2">
+                        <MDBCardImage className="img-fluid" src={img4} />
+                        </MDBCard>
+                    </MDBCol>
+                    <MDBCol md="4">
+                        <MDBCard className="mb-2">
+                        <MDBCardImage className="img-fluid" src={img2} />
+                        </MDBCard>
+                    </MDBCol>
+                    <MDBCol md="4">
+                        <MDBCard className="mb-2">
+                        <MDBCardImage className="img-fluid" src={img3} />
+                        </MDBCard>
+                    </MDBCol>
+                    </MDBCarouselItem>
+                </MDBRow>
+                </MDBCarouselInner>
+            </MDBCarousel>
+        </MDBContainer>

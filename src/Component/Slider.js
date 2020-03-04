@@ -27,8 +27,7 @@ const content = [
         description:
             'quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentumconsectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.',
         image: require('../assets/i4.jpg'),
-       
-      
+         
     }
 ];
 
