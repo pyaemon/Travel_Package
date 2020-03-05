@@ -5,7 +5,7 @@ const News =()=>{
     return(
         <div>
             <h3>News</h3>
-            <Footer/>
+               <Footer/>
             
         </div>
     )
