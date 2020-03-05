@@ -51,13 +51,13 @@ const Footer=()=>{
                             <a className='p-2 text-light' href='https://plus.google.com/'title='google-plus'><i class="fa fa-google-plus-square" ></i></a>
                         </div>  
                 </div>
-                <div className='col-md-4 py-3 text-white'>
+                <div className='col-md-4 py-4 text-white'>
                     <h3>Newsletter</h3>
                     <p className=''>Eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <div className=''>
                         <div className='' >
-                            <input type='input' className='border-1 p-1' placeholder='Email' title='Please fill out the field.' style={{borderRadius:15}}></input>
-                            <button type='button' className="border-right-1 btn-sm btn-warning" style={{borderRadius:15}}>Subscribe</button>
+                            <input type='input' className='border-1 p-1 px-0' placeholder='Email' title='Please fill out the field.' style={{borderRadius:15}}></input>
+                            <button type='button' className="p- border-right-1 btn-sm btn-warning" style={{borderRadius:14}}>Subscribe</button>
                         </div >
                     </div>
                 </div>
@@ -67,7 +67,7 @@ const Footer=()=>{
             style={{backgroundColor: 'black', fontSize:'20'}}>
                 <div className='pt-3 col-sm-3 text-light text-left'>
                     <div className='row' style={{fontSize:17}}>
-                        <p><a className='p-3 text-warning'>Kumo Solutions</a>© 2019 All Right Reserved</p>
+                        <p><a className='p-1 text-warning'>Kumo Solutions</a>© 2019 All Right Reserved</p>
                     </div>
                 </div>
                 <div className='col-sm-3 text-light text-left'></div>
