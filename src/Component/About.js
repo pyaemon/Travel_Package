@@ -1,7 +1,7 @@
 import React from 'react'
 import Hotel from './Hotel.js';
 import Background from './Background.js'
-
+//test commit
 const About=()=>{
     return(
     <div className="">
