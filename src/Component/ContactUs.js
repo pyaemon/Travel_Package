@@ -9,8 +9,7 @@ import Header2 from './Header2.js'
 
 const ContactUs=()=>{
     return(
-        <div>
-            <Header2/>   
+        <div>  
             {/* <div style={{fontFamily:''}}> */}
             <div>
                 <div style={{ position: "relative" }}>
@@ -27,7 +26,8 @@ const ContactUs=()=>{
                         backgroundPosition: "center center"
                     }}>
                     </div>
-                    <div style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0, backgroundColor: "#000000", opacity: 0.4 }}>
+                    <div style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0, 
+                    backgroundColor: "#000000", opacity: 0.4 }}>
 
                     </div>
                     <div className="" style={{ position: "absolute", left: "50%", top: "50%"}}>
@@ -46,7 +46,7 @@ const ContactUs=()=>{
                                 
                 </div>
             </div>
-            <div className='d-flex flex-row py-5 justify-content-center '>
+            <div className='d-flex flex-row flex-wrap py-5 justify-content-center '>
                 <div className='col-lg-3 border border-top-0 border-bottom-0 border-left-0'>
                     <div className='d-flex justify-content-center'>
                             <div className=''>
@@ -59,8 +59,8 @@ const ContactUs=()=>{
                     </div>
                 </div>
                 <div className='col-lg-3 border border-top-0 border-bottom-0 border-left-0'>
-                    <div className='d-flex'>
-                            <div className=''>
+                    <div className='d-flex justify-content-center flex-wrap'>
+                            <div className='d-flex justify-content-center'>
                                 <i className="p-3 fa fa-mobile text-warning" style={{fontSize:'50px'}}></i>
                                     </div>
                                         <div className='p-2'style={{fontSize:'18px'}}>
@@ -70,8 +70,8 @@ const ContactUs=()=>{
                                     </div>
                             </div>
                 <div className='col-lg-3'>
-                    <div className='d-flex'>
-                        <div className=''>
+                    <div className='d-flex justify-content-center '>
+                        <div className='d-flex justify-content-center'>
                              <i className="p-3 fa fa-envelope text-warning" style={{fontSize:'40px'}}></i>
 
                         </div>

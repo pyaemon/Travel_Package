@@ -3,11 +3,11 @@ import Footer from './Contact/footer'
 
 import W_P from '../assets/Wallpaper.jpg'
 import Header2 from './Header2'
+import Gallery from './Gallery'
 
 const Pages=()=>{
     return(
         <div>
-            <Header2/>
             <div style={{fontFamily:''}}>
             <div>
                 <div style={{ position: "relative" }}>                
@@ -35,6 +35,9 @@ const Pages=()=>{
                 </div>
             </div>
         </div>
+        <div>
+        </div>
+        <Gallery/>
             <Footer/>
         </div>
         

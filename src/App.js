@@ -7,11 +7,13 @@ import Pages from './Component/Pages.js';
 import News from './Component/News.js';
 import ContactUs from './Component/ContactUs.js';
 import './App.css';
+import Header2 from './Component/Header2.js';
 
 class App extends Component{
   render(){
     return(
       <Router>
+        <Header2/>
       <nav className="sticky-top navbar navbar-expand-md navbar-light " style={{backgroundColor:'#0d2933'}}>
           <a href="/home" className="navbar-brand text-light">Tour</a>
           <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
