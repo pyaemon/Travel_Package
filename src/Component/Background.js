@@ -20,7 +20,7 @@ const Background = () => {
                     <h3 className="py-3 font-weight-bold">
                         <strong>Enjoy your holiday</strong>
                     </h3>
-                    <p className="pb-3">
+                    <p className="text-center pb-3">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Repellat fugiat, laboriosam, voluptatem, optio vero odio
                         nam sit officia accusamus minus error nisi architecto

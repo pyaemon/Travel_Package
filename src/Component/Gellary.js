@@ -3,10 +3,11 @@ import { withMedia } from "react-media-query-hoc";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Event1 from "../assets/c1.PNG";
-import Event2 from "../assets/c3.PNG";
-import Event3 from "../assets/c2.PNG";
-import Event4 from "../assets/c4.PNG";
+import Event1 from "../assets/i4.jpg";
+import Event2 from "../assets/i5.jpg";
+import Event3 from "../assets/i6.jpg";
+import Event4 from "../assets/i7.jpg";
+import Event5 from "../assets/i1.jpg";
 
 const responsive = {
   desktop: {
@@ -26,12 +27,12 @@ const responsive = {
   }
 };
 
-const Event = props => {
+const Gallery = props => {
   const {media}=props
   return (
-    <div className="container py-1 pt-2">
+    <div className="container-fluid py-1 pt-2">
       <div className="">
-       <h1 className="font-weight-bold text-center">What Other Say?</h1>
+       <h1 className="font-weight-bold text-center">Our Gallery</h1>
        <p className="text-center">Excepteur sint occaecat cupidatat</p>
       </div>
 
@@ -67,11 +68,14 @@ const Event = props => {
         <div className="px-3  pt-5  ">
           <img className="w-100" src={Event4} alt="events" />
         </div>
+        <div className="px-3  pt-5  ">
+          <img className="w-100" src={Event5} alt="events" />
+        </div>
       </Carousel>
     </div>
   );
 };
-export default withMedia(Event);
+export default withMedia(Gallery);
 
 export const CustomButtonGroup = props => {
   const { next, previous } = props;

@@ -5,11 +5,7 @@ const AnyReactComponent = ({ text }) => (
     <div className="border p-1" style={{ position: "relative" }}>
         <i class="fa fa-circle-o-notch" style={{ fontSize: 19, color: "#a5b5b5", position: "absolute", top: 20 }}></i>
         <i className="text-danger fa fa-map-marker" title="Kumo Solutin" style={{fontSize:30,  position: "absolute", top: 0 }}></i>
-      {/* <span style={{background:"blue",color:'red',fontSize:20,cursor:'pointer'}} onClick={()=>window.alert("HELLO")} >
-        <div className="p-3 text-dark text-center">
-            <i className="text-danger fa fa-map-marker" aria-hidden="true" title="Kumo Solutin" style={{fontSize:40}}></i>
-        </div>
-      </span> */}
+
     </div>
 );
 
