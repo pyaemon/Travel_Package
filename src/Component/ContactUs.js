@@ -3,7 +3,7 @@ import ContactForm from '../../src/Component/Contact/contactForm.js'
 import SimpleMap from '../../src/Component/Contact/SimpleMap.js'
 import Footer from '../../src/Component/Contact/footer.js'
 
-import W_P from '../assets/abstract-architecture-black-and-white-boardwalk-262367.jpg'
+import W_P from '../assets/Wallpaper.jpg'
 
 
 const ContactUs=()=>{
@@ -33,11 +33,6 @@ const ContactUs=()=>{
                             </div>
                         </div>
                     </div>
-                     {/* <img className="d-flex-center" src={W_P} style={{width:'100%', }}/> */}
-                    {/* <div className='text-center' style={{fontSize:30,fontFamily:'Playfair Display', position: "absolute", top: "50%", left: "50%" }}>
-                        <h5 className='' style={{fontSize:50,fontFamily:'Playfair Display'}}><b>Contact Us</b></h5>
-                        <p className=""><a className=''>Home</a><i class=" p-3 fa fa-chevron-circle-right text-warning"></i>Contact Us</p>
-                    </div> */}
                 </div>
             </div>
             <div className='d-flex flex-row py-5 justify-content-center '>
@@ -83,23 +78,6 @@ const ContactUs=()=>{
             <ContactForm />
             <SimpleMap />
             <Footer />
-            {/* <div className='py-2 col-sm-12 d-flex flex-wrap container-fluid text-light justify-content-center' 
-            style={{backgroundColor: 'black', fontSize:'20'}}>
-                <div className='pt-3 col-sm-3 text-light text-left'>
-                    <div className='row' style={{fontSize:17}}>
-                        <p><a className='p-3 text-warning'>Kumo Solutions</a>© 2019 All Right Reserved</p>
-                    </div>
-                </div>
-                <div className='col-sm-3 text-light text-left'></div>
-                <div className='col-sm-3 text-light text-left'></div>
-                <div className='py-3 col-sm-3 text-light'>
-                    <div className='' style={{fontSize:17}}>
-                            <a className='p-3 text-warning'>Terms of Service</a>
-                            <a>|</a>
-                            <a className='p-3 text-warning'>Privacy Policy</a>            
-                    </div>
-                </div>
-            </div> */}
         </div>
         )
 }
