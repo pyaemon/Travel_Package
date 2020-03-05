@@ -1,17 +1,14 @@
 import React from 'react'
-import Footer from './Contact/footer'
+import W_P from '../assets/abstract-architecture-black-and-white-boardwalk-262367.jpg'
 
-import W_P from '../assets/Wallpaper.jpg'
-
-const News =()=>{
+const BgText=()=>{
     return(
         <div>
-            <h1>NEWS Page</h1>
-            {/* <div style={{fontFamily:''}}>
+            <div style={{fontFamily:''}}>
             <div>
                 <div style={{ position: "relative" }}>                
                     <div style={{ 
-                        height: 360, 
+                        height: 250, 
                         backgroundImage: `url('${W_P}')`, 
                         backgroundRepeat: "no-repeat",
                         backgroundSize: "cover",
@@ -23,23 +20,18 @@ const News =()=>{
                     </div>
                     <div className="" style={{ position: "absolute", left: "50%", top: "50%"}}>
                         <div style={{fontSize:20,fontFamily:'Playfair Display', position: "relative", top: -64, left: "-50%" }}>
-                            <div className='font-weight-bold text-white h2' style={{ fontFamily:'Playfair Display'}}>Contact Us</div>
-                            <div className="d-flex flex-row align-items-center">
-                                <a href="/" className="text-white">Home</a>
-                                <i class="px-2 fa fa-chevron-right text-white" style={{ fontSize: 14 }}></i>
-                                <a href="/" style={{ color: "#cda274" }}>News </a>
+                            <div className='font-weight-bold text-white h2' style={{ fontFamily:'Playfair Display'}}>About Us</div>
+                                <div className="d-flex flex-row align-items-center">
+                                    <a href="/" className="text-white">Home</a>
+                                    <i class="px-2 fa fa-chevron-right text-white" style={{ fontSize: 14 }}></i>
+                                    <a href="/" style={{ color: "#cda274" }}>About Us</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            </div> */}
-               <Footer/>
-               
         </div>
     )
 }
-    
-
-
-export default News
+export default BgText
