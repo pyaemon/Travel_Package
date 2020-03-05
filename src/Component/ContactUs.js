@@ -3,11 +3,18 @@ import ContactForm from '../../src/Component/Contact/contactForm.js'
 import SimpleMap from '../../src/Component/Contact/SimpleMap.js'
 import Footer from '../../src/Component/Contact/footer.js'
 import W_P from '../assets/Wallpaper.jpg'
+import Header2 from './Header2.js'
 
 
 const ContactUs=()=>{
     return(
         <div>
+            <Header2/>   
+            {/* <div style={{fontFamily:''}}> */}
+            <div>
+                <div style={{ position: "relative" }}>
+                <div>
+            {/* <h1>NEWS Page</h1> */}
             <div style={{fontFamily:''}}>
             <div>
                 <div style={{ position: "relative" }}>                
@@ -24,14 +31,18 @@ const ContactUs=()=>{
                     </div>
                     <div className="" style={{ position: "absolute", left: "50%", top: "50%"}}>
                         <div style={{fontSize:20,fontFamily:'Playfair Display', position: "relative", top: -64, left: "-50%" }}>
-                            <div className='font-weight-bold text-white h2' style={{ fontFamily:'Playfair Display'}}>Contact Us</div>
+                            <div className='font-weight-bold text-white h2' style={{ fontFamily:'Playfair Display'}}>Blog Grid View</div>
                             <div className="d-flex flex-row align-items-center">
                                 <a href="/" className="text-white">Home</a>
                                 <i class="px-2 fa fa-chevron-right text-white" style={{ fontSize: 14 }}></i>
-                                <a href="/" style={{ color: "#cda274" }}>Contact Us</a>
+                                <a href="/" style={{ color: "#cda274" }}>Blog Grid View</a>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+                                
                 </div>
             </div>
             <div className='d-flex flex-row py-5 justify-content-center '>
@@ -50,14 +61,13 @@ const ContactUs=()=>{
                     <div className='d-flex'>
                             <div className=''>
                                 <i className="p-3 fa fa-mobile text-warning" style={{fontSize:'50px'}}></i>
+                                    </div>
+                                        <div className='p-2'style={{fontSize:'18px'}}>
+                                            (+95)9443322115<br></br>
+                                            (+95)9443322116    
+                                        </div>
+                                    </div>
                             </div>
-                                <div className='p-2'style={{fontSize:'18px'}}>
-                                    (+95)9443322115<br></br>
-                                    (+95)9443322116    
-                                </div>
-                                    
-                            </div>
-                    </div>
                 <div className='col-lg-3'>
                     <div className='d-flex'>
                         <div className=''>
