@@ -2,7 +2,6 @@ import React from 'react'
 import ContactForm from '../../src/Component/Contact/contactForm.js'
 import SimpleMap from '../../src/Component/Contact/SimpleMap.js'
 import Footer from '../../src/Component/Contact/footer.js'
-
 import W_P from '../assets/Wallpaper.jpg'
 
 

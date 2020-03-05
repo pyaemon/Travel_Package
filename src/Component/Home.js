@@ -5,9 +5,11 @@ import Hotel from './Hotel.js';
 import Book from './Book.js';
 import LatestNew from './LatestNew.js'
 import Background from './Background.js'
-//import Carousel from './Carousel.js';
-// import ImageSlide from './ImageSlide.js'
-import Service from './Service.js';
+import SimpleMap from './Contact/SimpleMap.js'
+import Footer from './Contact/footer.js'
+import Event from './Carousel.js'
+import Gallery from './Gellary.js'
+import Tab from './Tab.js'
 
 const Home=()=>{
     return(
@@ -16,11 +18,13 @@ const Home=()=>{
             <Check/>
             <Hotel/>
             <Book/>
-            <Service/>
-            {/* <ImageSlide/> */}
-            {/* <Carousel/> */}
+            <Tab/>
+            <Gallery/>
+            <Event/>
             <Background/>
             <LatestNew/>
+            <SimpleMap />
+            <Footer />
         </div>
         )
 }

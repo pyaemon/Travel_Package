@@ -8,7 +8,7 @@ import 'font-awesome/css/font-awesome.min.css';
 
 const LatestNew=()=>{
     return(
-        <div className="container">
+        <div className="pb-5 container">
                 <h1 className="font-weight-bold" >Latest New</h1>
                 <p>Excepteur sint occaecat cupidatat</p>
            

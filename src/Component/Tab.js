@@ -1,137 +1,134 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import SwipeableViews from 'react-swipeable-views';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
+import { useState } from 'react';
+import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
+import classnames from 'classnames';
+import img1 from '../assets/s1.jpg';
+import img2 from '../assets/s2.jpg';
+import img3 from '../assets/i1.jpg';
+import img4 from '../assets/s4.jpg'
+import l1 from '../assets/l1.PNG'
+import l2 from '../assets/l2.PNG'
+import l3 from '../assets/l3.PNG'
+import l4 from '../assets/l4.PNG'
 
-function TabPanel(props) {
-    const { children, value, index, ...other } = props;
+const Tab=(props)=>{
+    const [activeTab,setActiveTab]=useState('1');
 
-    return (
-        <Typography
-        component="div"
-        role="tabpanel"
-        hidden={value !== index}
-        id={`full-width-tabpanel-${index}`}
-        aria-labelledby={`full-width-tab-${index}`}
-        {...other}
-        >
-        {value === index && <Box p={3}>{children}</Box>}
-        </Typography>
-    );
-    }
-
-    TabPanel.propTypes = {
-    children: PropTypes.node,
-    index: PropTypes.any.isRequired,
-    value: PropTypes.any.isRequired,
-    };
-
-    function a11yProps(index) {
-    return {
-        id: `full-width-tab-${index}`,
-        'aria-controls': `full-width-tabpanel-${index}`,
-    };
-    }
-
-    const useStyles = makeStyles(theme => ({
-    root: {
-        backgroundColor: theme.palette.background.paper,
-        width: 500,
-    },
-    }));
-
-    export default function FullWidthTabs() {
-    const classes = useStyles();
-    const theme = useTheme();
-    const [value, setValue] = React.useState(0);
-
-    const handleChange = (event, newValue) => {
-        setValue(newValue);
-    };
-
-    const handleChangeIndex = index => {
-        setValue(index);
-    };
-
-    return (
-        <div className={classes.root}>
-        <AppBar position="static" color="default">
-            <Tabs
-            value={value}
-            onChange={handleChange}
-            indicatorColor="primary"
-            textColor="primary"
-            variant="fullWidth"
-            aria-label="full width tabs example"
-            >
-            <Tab label="Item One" {...a11yProps(0)} />
-            <Tab label="Item Two" {...a11yProps(1)} />
-            <Tab label="Item Three" {...a11yProps(2)} />
-            </Tabs>
-        </AppBar>
-        <SwipeableViews
-            axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
-            index={value}
-            onChangeIndex={handleChangeIndex}
-        >
-            <TabPanel value={value} index={0} dir={theme.direction}>
-            Item One
-            </TabPanel>
-            <TabPanel value={value} index={1} dir={theme.direction}>
-            Item Two
-            </TabPanel>
-            <TabPanel value={value} index={2} dir={theme.direction}>
-            Item Three
-            </TabPanel>
-        </SwipeableViews>
+    const toggle = tab => {
+        if(activeTab !== tab) setActiveTab(tab);
+      }    
+      return (
+        <div className="pt-4 pb-4 container">
+            <div>
+                <h1 className="font-weight-bold text-center">Our Services</h1>
+                <p className="text-center">Excepteur sint occaecat cupidatat</p>
+            </div>
+                <Nav tabs className="pt-4">
+                    <NavItem>
+                    <NavLink
+                        className={classnames({ active: activeTab === '1' })}
+                        onClick={() => { toggle('1'); }}
+                    >
+                    <img src={l1} style={{width: '90px'}}/>
+                   <p className="text-center font-weight-bold">Restruant</p>
+                    </NavLink>
+                    </NavItem>
+                    <NavItem>
+                    <NavLink
+                        className={classnames({ active: activeTab === '2' })}
+                        onClick={() => { toggle('2'); }}
+                        >
+                    <img src={l2} style={{width: '100px'}}/>
+                   <p className="text-center font-weight-bold">Health & Spa</p>
+                    </NavLink>
+                    </NavItem>
+                    <NavItem>
+                    <NavLink
+                        className={classnames({ active: activeTab === '3' })}
+                        onClick={() => { toggle('3'); }}
+                    >
+                    <img src={l3} style={{width: '90px'}}/>
+                   <p className="text-center font-weight-bold">Swimming Pool</p>
+                    </NavLink>
+                    </NavItem>
+                    <NavItem>
+                    <NavLink
+                        className={classnames({ active: activeTab === '4' })}
+                        onClick={() => { toggle('4'); }}
+                    >
+                    <img src={l4} style={{width: '100px'}}/>
+                   <p className="text-center font-weight-bold">Conference Room</p>
+                    </NavLink>
+                    </NavItem>
+                </Nav>
+                <TabContent activeTab={activeTab}>
+                <TabPane tabId="1">
+                        <Row>
+                            <Col sm=" 12">
+                                <div className="pt-5 d-flex flex-wrap justify-content-center">
+                                    <div className="col-lg-6">
+                                        <img src={img1} className="w-100" alt="" />
+                                    </div>
+                                <div className="col-lg-6">
+                                        <h3 className="font-weight-bold">Restruant</h3>
+                                        <p className="pt-2">Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis unde omnis natus error.Inventore veritatis et quasi architebeatae vitae dicta sunt explicabonemo enim ipsam voluptatem quia voluptassit.aspernatur aut odit aut fugit</p>
+                                        <p>sed quia consequunturMagni dolores eos qui ratione voluptatem sequi nesciunt.neque porro quisquam est qui dolore ipsum quia dolor sit amet, consectetur adipisci velit sed quia.</p>
+                                </div>
+                                </div>        
+                            </Col>
+                        </Row>
+                    </TabPane>
+                    <TabPane tabId="2">
+                        <Row>
+                            <Col sm=" 12">
+                                <div className="pt-5 d-flex flex-wrap justify-content-center">
+                                    <div className="col-lg-6">
+                                        <img src={img2} className="w-100" alt="" />
+                                    </div>
+                                <div className="col-lg-6">
+                                        <h3 className="font-weight-bold">Health & Spa</h3>
+                                        <p className="pt-2">Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis unde omnis natus error.Inventore veritatis et quasi architebeatae vitae dicta sunt explicabonemo enim ipsam voluptatem quia voluptassit.aspernatur aut odit aut fugit</p>
+                                        <p>sed quia consequunturMagni dolores eos qui ratione voluptatem sequi nesciunt.neque porro quisquam est qui dolore ipsum quia dolor sit amet, consectetur adipisci velit sed quia.</p>
+                                </div>
+                                </div>        
+                            </Col>
+                        </Row>
+                    </TabPane>
+                    <TabPane tabId="3">
+                        <Row>
+                            <Col sm=" 12">
+                                <div className="pt-5 d-flex flex-wrap justify-content-center">
+                                    <div className="col-lg-6">
+                                        <img src={img3} className="w-100" alt="" />
+                                    </div>
+                                <div className="col-lg-6">
+                                        <h3 className="font-weight-bold">Swimming Pool</h3>
+                                        <p className="pt-2">Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis unde omnis natus error.Inventore veritatis et quasi architebeatae vitae dicta sunt explicabonemo enim ipsam voluptatem quia voluptassit.aspernatur aut odit aut fugit</p>
+                                        <p>sed quia consequunturMagni dolores eos qui ratione voluptatem sequi nesciunt.neque porro quisquam est qui dolore ipsum quia dolor sit amet, consectetur adipisci velit sed quia.</p>
+                                </div>
+                                </div>        
+                            </Col>
+                        </Row>
+                    </TabPane>
+                    <TabPane tabId="4">
+                        <Row>
+                            <Col sm=" 12">
+                                <div className="pt-5 d-flex flex-wrap justify-content-center">
+                                    <div className="col-lg-6">
+                                        <img src={img4} className="w-100" alt="" />
+                                    </div>
+                                <div className="col-lg-6">
+                                        <h3 className="font-weight-bold">Conference Room</h3>
+                                        <p className="pt-2">Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis unde omnis natus error.Inventore veritatis et quasi architebeatae vitae dicta sunt explicabonemo enim ipsam voluptatem quia voluptassit.aspernatur aut odit aut fugit</p>
+                                        <p>sed quia consequunturMagni dolores eos qui ratione voluptatem sequi nesciunt.neque porro quisquam est qui dolore ipsum quia dolor sit amet, consectetur adipisci velit sed quia.</p>
+                                </div>
+                                </div>        
+                            </Col>
+                        </Row>
+                    </TabPane>
+                </TabContent>
         </div>
-    );
-}
-
-        <MDBContainer>
-            <MDBCarousel activeItem={1} length={2} slide={true} showControls={true} showIndicators={true} multiItem>
-                <MDBCarouselInner>
-                <MDBRow>
-                    {/* <MDBCarouselItem itemId="1"> */}
-                    <MDBCol md="4">
-                        <MDBCard className="mb-2">
-                        <MDBCardImage className="img-fluid" src={img1} />
-                        </MDBCard>
-                    </MDBCol>
-                    <MDBCol md="4">
-                        <MDBCard className="mb-2">
-                        <MDBCardImage className="img-fluid" src={img2} />
-                        </MDBCard>
-                    </MDBCol>
-                    <MDBCol md="4">
-                        <MDBCard className="mb-2">
-                        <MDBCardImage className="img-fluid" src={img3} />
-                        </MDBCard>
-                    </MDBCol>
-                    {/* </MDBCarouselItem> */}
-                    <MDBCarouselItem itemId="2">
-                    <MDBCol md="4">
-                        <MDBCard className="mb-2">
-                        <MDBCardImage className="img-fluid" src={img4} />
-                        </MDBCard>
-                    </MDBCol>
-                    <MDBCol md="4">
-                        <MDBCard className="mb-2">
-                        <MDBCardImage className="img-fluid" src={img2} />
-                        </MDBCard>
-                    </MDBCol>
-                    <MDBCol md="4">
-                        <MDBCard className="mb-2">
-                        <MDBCardImage className="img-fluid" src={img3} />
-                        </MDBCard>
-                    </MDBCol>
-                    </MDBCarouselItem>
-                </MDBRow>
-                </MDBCarouselInner>
-            </MDBCarousel>
-        </MDBContainer>
+      );
+    }
+    
+export default Tab;
