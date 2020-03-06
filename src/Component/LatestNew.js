@@ -33,7 +33,7 @@ const LatestNew=()=>{
                             <h3 className="pt-3 card-title">Electric Feel And Of Other Things</h3>
                             <p className="card-text">by adminon June 11, 2019</p>
                             <p className="card-text">Excepteur sint occaecat cupidatat non proi dent sunt in culpa qui officia deserunt mollit anim id est. laborum. ...</p>
-                            <a href="#" className="btn btn-primary rounded-pill">Read More</a>
+                            <a href="#" className="btn btn-warning rounded-pill">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ const LatestNew=()=>{
                                 <h3 className="pt-3 card-title">Cras Ultricies Ligula Sed Magna.</h3>
                                 <p className="card-text">by adminon June 11, 2019</p>
                                 <p className="card-text">Excepteur sint occaecat cupidatat non proi dent sunt in culpa qui officia deserunt mollit anim id est. laborum. ...</p>
-                                <a href="#" className="btn btn-primary rounded-pill">Read More</a>
+                                <a href="#" className="btn btn-warning rounded-pill">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ const LatestNew=()=>{
                                 <h3 className="pt-3 card-title">Lacinia eget consecte sed convallis.</h3>
                                 <p className="card-text">by adminon June 11, 2019</p>
                                 <p className="card-text">Excepteur sint occaecat cupidatat non proi dent sunt in culpa qui officia deserunt mollit anim id est. laborum. ...</p>
-                                <a href="#" className="btn btn-primary rounded-pill">Read More</a>
+                                <a href="#" className="btn btn-warning rounded-pill">Read More</a>
                             </div>
                         </div>
                     </div>

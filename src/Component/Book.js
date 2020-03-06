@@ -98,9 +98,6 @@ const Book=()=>{
                             </div>
                         </div>
                     </div>
-                    <div className="pt-5">
-                        <button type="button" className="btn btn-warning rounded-pill">Book Now</button>
-                    </div>
             </div>        
         </div>
        

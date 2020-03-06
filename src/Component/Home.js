@@ -11,12 +11,12 @@ import Event from './Carousel.js'
 import Gallery from './Gellary.js'
 import Tab from './Tab.js'
 
-const Home=()=>{
+const Home=(props)=>{
     return(
         <div className="">
             <Slider1/>
             <Check/>
-            <Hotel/>
+            <Hotel {...props}/>
             <Book/>
             <Tab/>
             <Gallery/>

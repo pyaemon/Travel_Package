@@ -11,7 +11,7 @@ const Background = () => {
                         backgroundImage:
                         "url(https://mdbootstrap.com/img/Photos/Others/img%20%2832%29.jpg)"
                     }}>
-                <div className="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
+                <div className="text-white justify-content-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
                     <div>
                     <h6 className="purple-text">
                         <MDBIcon icon="plane" />
@@ -20,7 +20,7 @@ const Background = () => {
                     <h3 className="py-3 font-weight-bold">
                         <strong>Enjoy your holiday</strong>
                     </h3>
-                    <p className="text-center pb-3">
+                    <p className=" pb-3">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Repellat fugiat, laboriosam, voluptatem, optio vero odio
                         nam sit officia accusamus minus error nisi architecto
