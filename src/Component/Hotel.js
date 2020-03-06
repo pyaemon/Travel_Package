@@ -1,7 +1,7 @@
 import React from 'react';
 import p1 from '../assets/p1.PNG'
 
-const Hotel =()=>{
+const Hotel =(props)=>{
     return(
         <div className="pt-5 container">
             <div className="d-flex flex-wrap flex-row justify-content-center">
@@ -12,7 +12,7 @@ const Hotel =()=>{
                     Inventore veritatis et quasi architebeatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem.
                     </p>
                     <div className="pt-4" >
-                    <button type="button" className="btn btn-light rounded-pill w-50">About Us</button>
+                    <a onClick ={()=>props.history.push("/About")} className="btn btn-warning rounded-pill">Read More</a>
                     </div>
                 </div>
                 <div className="col-md-6">

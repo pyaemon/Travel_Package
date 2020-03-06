@@ -147,29 +147,4 @@
   display: block;
 }
 
-/* @media (max-height: 700px) {
-  .slider-wrapper,
-  .slide {
-    height: calc(100vh - 75px);
-  }
-}
-
-@media (max-width: 640px) {
-  .slider-wrapper,
-  .slide {
-    height: calc(80vh - 75px);
-  }
-}
-
-@media (max-height: 600px) {
-  .slider-content .inner h1 {
-    font-size: 32px;
-  }
-}
-
-@media (max-width: 640px) {
-  .slider-content .inner h1 {
-    font-size: 32px;
-  }
-} */
 
