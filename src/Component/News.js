@@ -20,7 +20,7 @@ const News =(props)=>{
             <div>
                 <div style={{ position: "relative" }}>                
                     <div style={{ 
-                        height: 360, 
+                        height: 250, 
                         backgroundImage: `url('${W_P}')`, 
                         backgroundRepeat: "no-repeat",
                         backgroundSize: "cover",
@@ -52,7 +52,7 @@ const News =(props)=>{
                             <MDBCol>
                                 <MDBView hover>
                                 <img
-                                    src={r2}
+                                    src="https://cardiogenix.com/wp-content/uploads/2016/04/hotel-bed-rooms-contemporary-design-9-on-bed-design-ideas.jpg"
                                     className="img-fluid w-100 opacity-2"
                                     alt=""
                                 />
@@ -76,7 +76,7 @@ const News =(props)=>{
                                 <MDBCol>
                                     <MDBView hover>
                                     <img
-                                        src={r1}
+                                        src="https://i.pinimg.com/originals/ee/2b/6c/ee2b6cc371b360282534163cde417157.jpg"
                                         className="img-fluid w-100"
                                         alt=""
                                     />
@@ -100,7 +100,7 @@ const News =(props)=>{
                                 <MDBCol>
                                     <MDBView hover>
                                     <img
-                                        src={r3}
+                                        src="https://www.superiorwallpapers.com/images/lthumbs/2015-05/8229_Gorgeous-and-colorful-hotel-room-HD.jpg"
                                         className="img-fluid w-100"
                                         alt=""
                                     />
@@ -120,7 +120,7 @@ const News =(props)=>{
                     </div>
             </div>        
         </div>
-        {/* <div className="p-3 container">
+        <div className="p-3 container">
             <div className="pt-5 d-flex flex-wrap flex-row justify-content-center">
                 <div className="col-lg-4">
                     <div className="card" >
@@ -128,7 +128,7 @@ const News =(props)=>{
                             <MDBCol>
                                 <MDBView hover>
                                 <img
-                                    src={r2}
+                                    src="https://www.ahstatic.com/photos/9149_hofh_00_p_2560x1440.jpg"
                                     className="img-fluid w-100 opacity-2"
                                     alt=""
                                 />
@@ -152,7 +152,7 @@ const News =(props)=>{
                                 <MDBCol>
                                     <MDBView hover>
                                     <img
-                                        src={r1}
+                                        src="https://pix10.agoda.net/hotelImages/169045/-1/399a983e06a2e5936e1cb9150adab5fb.jpg?s=1024x768"
                                         className="img-fluid w-100"
                                         alt=""
                                     />
@@ -195,16 +195,16 @@ const News =(props)=>{
                         </div>
                     </div>
             </div>        
-        </div>  */}
+        </div> 
         <div>
         <nav aria-label="Page navigation example">
   <ul class="pagination justify-content-center">
-        <li class="page-item disabled">
+        <li class="page-item success">
         <a class="page-link" href="#" tabindex="-1" aria-disabled="true"></a>
         </li>
         <li class="page-item"><a class="page-link" href="#">1</a></li>
         <li class="page-item"><a class="page-link" href="#">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        {/* <li class="page-item"><a class="page-link" href="#">3</a></li> */}
         <li class="page-item">
         <a class="page-link" href="">Next</a>
         </li>

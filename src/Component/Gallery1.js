@@ -5,14 +5,12 @@ const Gallery1=()=>{
     return(
         
         <div class="container">
+          <h1 className="d-flex justify-content-center font-weight-light text-center text-lg-left mt-4 mb-0" style={{fontFamily:'Playfair Display'}}>
+            Our Mandalay Hotel Gallery
+          </h1>
+          <hr className="mt-2 mb-5"/>
 
-  <h1 className="d-flex justify-content-center font-weight-light text-center text-lg-left mt-4 mb-0" style={{fontFamily:'Playfair Display'}}>
-    Our Mandalay Hotel Gallery
-    </h1>
-
-  <hr class="mt-2 mb-5"/>
-
-  <div class="row text-center text-lg-left">
+  <div class="row text-center text-lg-left fa-shapes">
 
     <div class="col-lg-3 col-md-4 col-6">
       <a href="#" class="d-block mb-4 h-100">

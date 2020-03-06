@@ -8,7 +8,7 @@ import News from './Component/News.js';
 import ContactUs from './Component/ContactUs.js';
 import './App.css';
 import Header2 from './Component/Header2.js';
-import Logo from './assets/kumo_Logo.png'
+import Logo1 from './assets/kumo_Logo1.png'
 
 class App extends Component{
   render(){
@@ -18,7 +18,7 @@ class App extends Component{
       <nav className="sticky-top navbar navbar-expand-md navbar-light " style={{backgroundColor:'#0d2933'}}>
           <a href="/home" className="px-2 navbar-brand text-light" >
             <div className=" col-lg-3 text-right">
-            <img  src={Logo} style={{height:45}}/>
+            <img  src={Logo1} style={{height:50}}/>
             </div>
             </a>
           <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">

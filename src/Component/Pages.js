@@ -12,7 +12,7 @@ const Pages=()=>{
             <div>
                 <div style={{ position: "relative" }}>                
                     <div style={{ 
-                        height: 360, 
+                        height: 250, 
                         backgroundImage: `url('${W_P}')`, 
                         backgroundRepeat: "no-repeat",
                         backgroundSize: "cover",

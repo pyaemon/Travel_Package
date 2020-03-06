@@ -25,7 +25,7 @@ const Book=()=>{
                                     alt=""
                                 />
                                 <MDBMask className="flex-center" overlay="black-strong">
-                                    <p className="white-text">Strong overlay</p>
+                                    <p className="white-text">Mandalay Hotel</p>
                                 </MDBMask>
                                 </MDBView>
                             </MDBCol>
@@ -55,7 +55,7 @@ const Book=()=>{
                                         alt=""
                                     />
                                     <MDBMask className="flex-center" overlay="black-strong">
-                                        <p className="white-text">Strong overlay</p>
+                                        <p className="white-text">Mandalay Hotel</p>
                                     </MDBMask>
                                     </MDBView>
                                 </MDBCol>
@@ -82,7 +82,7 @@ const Book=()=>{
                                         alt=""
                                     />
                                     <MDBMask className="flex-center" overlay="black-strong">
-                                        <p className="white-text">Strong overlay</p>
+                                        <p className="white-text">Mandalay Hotel</p>
                                     </MDBMask>
                                     </MDBView>
                                 </MDBCol>

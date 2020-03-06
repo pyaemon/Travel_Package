@@ -1,15 +1,15 @@
 import React from 'react'
-import Logo from '../../assets/kumo_Logo.png'
+import Logo1 from '../../assets/kumo_Logo1.png'
 
 import '../../App.css'
 
 const Footer=()=>{
     return(
         <div>
-        <div className='py-4 d-flex' style={{backgroundColor:'#0d2933'}}>
+        <div className='py-3 d-flex' style={{backgroundColor:'#0d2933'}}>
             <div className='container d-flex flex-wrap justify-content-between'>
-                <div className='col py-3 text-white'>
-                    <img src={Logo} style={{height:60}}></img>
+                <div className='col pt-3 text-white'>
+                    <img src={Logo1} style={{height:60}}></img>
                     <p className='py-2'>Lorem ipsum dolor amet consecte tur adi pisicing elit sed eiusm tempor incididunt</p>
                     <p>labore dolore magna aliqua enim ad minim veniam quis.nostrud exercita.</p>
                 </div>
@@ -34,14 +34,15 @@ const Footer=()=>{
                 <div className='col py-3 text-white'>
                     <h3>Contact Info</h3>
                      <p className='pt-3'>
-                        Flat 20, Reynolds Neck, North<br></br>
-                         Helenaville, FV77
+                        64th Street ,<br></br>Bet(105th St)& (106th),
+                        ChanMyaTharSi Township,<br></br>Mandalay.
                     </p>
                         <p>
-                        +2(305) 587-3407
+                        (+95)9443322115
+                        (+95)9443322116
                         </p>
                         <p>
-                        info@panola.com
+                        office@kumomyanmar.com
                         </p>
                         <div className='pt-2'>
                             <a className='p-1 text-light' href='https://www.facebook.com/' title='facebook'><i className="fa fa-facebook-square"></i></a>
