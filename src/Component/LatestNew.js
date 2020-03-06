@@ -23,7 +23,7 @@ const LatestNew=()=>{
                                     className="img-fluid w-100"
                                     alt=""
                                 />
-                                <MDBMask className="flex-center" overlay="red-strong">
+                                <MDBMask className="flex-center" overlay="black-strong">
                                 </MDBMask>
                                 </MDBView>
                             </MDBCol>
@@ -47,7 +47,7 @@ const LatestNew=()=>{
                                         className="img-fluid w-100"
                                         alt=""
                                     />
-                                     <MDBMask className="flex-center" overlay="red-strong">
+                                     <MDBMask className="flex-center" overlay="black-strong">
                                     </MDBMask>
                                     </MDBView>
                                 </MDBCol>
@@ -71,7 +71,7 @@ const LatestNew=()=>{
                                         className="img-fluid w-100"
                                         alt=""
                                     />
-                                     <MDBMask className="flex-center" overlay="red-strong">
+                                     <MDBMask className="flex-center" overlay="black-strong">
                                     </MDBMask>
                                     </MDBView>
                                 </MDBCol>

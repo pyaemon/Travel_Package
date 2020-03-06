@@ -1,12 +1,14 @@
 import React from 'react'
 import P1 from '../assets/bg1.jpg'
 
-const Gallery=()=>{
+const Gallery1=()=>{
     return(
         
         <div class="container">
 
-  <h1 className="d-flex justify-content-center font-weight-light text-center text-lg-left mt-4 mb-0">Thumbnail Gallery</h1>
+  <h1 className="d-flex justify-content-center font-weight-light text-center text-lg-left mt-4 mb-0" style={{fontFamily:'Playfair Display'}}>
+    Our Mandalay Hotel Gallery
+    </h1>
 
   <hr class="mt-2 mb-5"/>
 
@@ -78,4 +80,4 @@ const Gallery=()=>{
     )
 }
 
-export default Gallery
+export default Gallery1

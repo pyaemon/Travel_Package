@@ -6,10 +6,10 @@ import '../../App.css'
 const Footer=()=>{
     return(
         <div>
-        <div className=' bg-dark py-4 d-flex'>
+        <div className='py-4 d-flex' style={{backgroundColor:'#0d2933'}}>
             <div className='container d-flex flex-wrap justify-content-between'>
                 <div className='col py-3 text-white'>
-                    <img src={Logo} style={{height:50}}></img>
+                    <img src={Logo} style={{height:60}}></img>
                     <p className='py-2'>Lorem ipsum dolor amet consecte tur adi pisicing elit sed eiusm tempor incididunt</p>
                     <p>labore dolore magna aliqua enim ad minim veniam quis.nostrud exercita.</p>
                 </div>
@@ -51,14 +51,17 @@ const Footer=()=>{
                             <a className='p-2 text-light' href='https://plus.google.com/'title='google-plus'><i class="fa fa-google-plus-square" ></i></a>
                         </div>  
                 </div>
-                <div className='col-md-4 py-4 text-white'>
+                <div className='col-md-4 py-3 text-white'>
                     <h3>Newsletter</h3>
-                    <p className=''>Eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <div className=''>
-                        <div className='' >
-                            <input type='input' className='border-1 p-1 px-0' placeholder='Email' title='Please fill out the field.' style={{borderRadius:15}}></input>
-                            <button type='button' className="p- border-right-1 btn-sm btn-warning" style={{borderRadius:14}}>Subscribe</button>
-                        </div >
+                    <p className='pt-3'>Eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div className='d-flex row '>
+                        <div className='p-2' >
+                            <input type='input' className='p-2' placeholder='Email' 
+                            title='Please fill out the field.' style={{borderRadius:7}}></input>
+                            </div > 
+                        <div className='p-2 '>
+                            <button type='button' className="p-2 btn-sm btn-warning" style={{borderRadius:7}}>Subscribe</button>
+                        </div>
                     </div>
                 </div>
             </div>

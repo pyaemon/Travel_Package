@@ -24,7 +24,7 @@ const Book=()=>{
                                     className="img-fluid w-100"
                                     alt=""
                                 />
-                                <MDBMask className="flex-center" overlay="red-strong">
+                                <MDBMask className="flex-center" overlay="black-strong">
                                     <p className="white-text">Strong overlay</p>
                                 </MDBMask>
                                 </MDBView>
@@ -40,7 +40,7 @@ const Book=()=>{
                                 <i className="fa fa-star"></i>
                             <h3 className="pt-3 card-title">Single Room</h3>
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" className="btn btn-primary rounded-pill">Book Now</a>
+                            <a href="#" className="btn btn-warning rounded-pill">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ const Book=()=>{
                                         className="img-fluid w-100"
                                         alt=""
                                     />
-                                    <MDBMask className="flex-center" overlay="red-strong">
+                                    <MDBMask className="flex-center" overlay="black-strong">
                                         <p className="white-text">Strong overlay</p>
                                     </MDBMask>
                                     </MDBView>
@@ -67,7 +67,7 @@ const Book=()=>{
                                     <i className="fa fa-star"></i>
                                 <h3 className="pt-3 card-title">Single Room</h3>
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" className="btn btn-primary rounded-pill">Book Now</a>
+                                <a href="#" className="btn btn-warning rounded-pill">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ const Book=()=>{
                                         className="img-fluid w-100"
                                         alt=""
                                     />
-                                    <MDBMask className="flex-center" overlay="red-strong">
+                                    <MDBMask className="flex-center" overlay="black-strong">
                                         <p className="white-text">Strong overlay</p>
                                     </MDBMask>
                                     </MDBView>
@@ -94,12 +94,12 @@ const Book=()=>{
                                     <i className="fa fa-star"></i>
                                 <h3 className="pt-3 card-title">Single Room</h3>
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="/" className="btn btn-primary rounded-pill">Book Now</a>
+                                <a href="/" className="btn btn-warning rounded-pill">Book Now</a>
                             </div>
                         </div>
                     </div>
                     <div className="pt-5">
-                        <button type="button" className="btn btn-light rounded-pill">Book Now</button>
+                        <button type="button" className="btn btn-warning rounded-pill">Book Now</button>
                     </div>
             </div>        
         </div>

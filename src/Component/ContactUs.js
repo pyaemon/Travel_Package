@@ -52,8 +52,8 @@ const ContactUs=()=>{
                                 <i className="p-3 fa fa-map-marker text-warning" style={{fontSize:'40px'}}></i>
                             </div>
                             <div className='p-2' style={{fontSize:'18px'}}>
-                                64th Street ,<br></br> Bet(105th St)& 
-                                (106th),<br></br>ChanMyaTharSi Township,<br></br>Mandalay.  
+                                64th Street ,Bet(105th St)& 
+                                (106th),<br></br>ChanMyaTharSi Township,Mandalay.  
                             </div>             
                     </div>
                 </div>
@@ -71,7 +71,7 @@ const ContactUs=()=>{
                 <div className='col-lg-3'>
                     <div className='d-flex justify-content-center '>
                         <div className='d-flex justify-content-center'>
-                             <i className="p-3 fa fa-envelope text-warning" style={{fontSize:'40px'}}></i>
+                             <i className="p-3 fa fa-envelope text-warning" style={{fontSize:'38px'}}></i>
 
                         </div>
                         <div className='p-2' style={{fontSize:'18px'}}>

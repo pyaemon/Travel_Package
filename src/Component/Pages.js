@@ -3,7 +3,7 @@ import Footer from './Contact/footer'
 
 import W_P from '../assets/Wallpaper.jpg'
 import Header2 from './Header2'
-import Gallery from './Gallery'
+import Gallery1 from './Gallery1'
 
 const Pages=()=>{
     return(
@@ -37,7 +37,7 @@ const Pages=()=>{
         </div>
         <div>
         </div>
-        <Gallery/>
+        <Gallery1/>
             <Footer/>
         </div>
         

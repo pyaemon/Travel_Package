@@ -10,16 +10,17 @@ import r3 from '../assets/r3.jpg';
 import { MDBMask, MDBView, MDBRow, MDBCol } from "mdbreact";
 import 'mdbreact/dist/css/mdb.css';
 import 'font-awesome/css/font-awesome.min.css';
+import About from './About'
 
-const News =()=>{
+const News =(props)=>{
     return(
         <div>
-            <Header2/>
+            
             <div style={{fontFamily:''}}>
             <div>
                 <div style={{ position: "relative" }}>                
                     <div style={{ 
-                        height: 250, 
+                        height: 360, 
                         backgroundImage: `url('${W_P}')`, 
                         backgroundRepeat: "no-repeat",
                         backgroundSize: "cover",
@@ -65,7 +66,7 @@ const News =()=>{
                             <h3 className="pt-3 card-title">Electric Feel And Of Other Things</h3>
                             <p className="card-text">by adminon June 11, 2019</p>
                             <p className="card-text">Excepteur sint occaecat cupidatat non proi dent sunt in culpa qui officia deserunt mollit anim id est. laborum. ...</p>
-                            <a href="<" className="btn btn-warning rounded-pill">Read More</a>
+                            <a onClick ={()=>props.history.push("/About")} className="btn btn-warning rounded-pill">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -119,7 +120,7 @@ const News =()=>{
                     </div>
             </div>        
         </div>
-        <div className="p-3 container">
+        {/* <div className="p-3 container">
             <div className="pt-5 d-flex flex-wrap flex-row justify-content-center">
                 <div className="col-lg-4">
                     <div className="card" >
@@ -194,18 +195,18 @@ const News =()=>{
                         </div>
                     </div>
             </div>        
-        </div> 
+        </div>  */}
         <div>
         <nav aria-label="Page navigation example">
   <ul class="pagination justify-content-center">
         <li class="page-item disabled">
-        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+        <a class="page-link" href="#" tabindex="-1" aria-disabled="true"></a>
         </li>
         <li class="page-item"><a class="page-link" href="#">1</a></li>
         <li class="page-item"><a class="page-link" href="#">2</a></li>
         <li class="page-item"><a class="page-link" href="#">3</a></li>
         <li class="page-item">
-        <a class="page-link" href="#">Next</a>
+        <a class="page-link" href="">Next</a>
         </li>
   </ul>
 </nav>    
